@@ -1,14 +1,14 @@
+@import url('https://fonts.google.com/specimen/Ephesis#standard-styles');
+
+
 * {
-    font-family: 'Courier New';
-    margin: auto;
-    padding: auto;
-    height: auto;
-    width: auto;
-    
+  margin: auto;
+  padding: auto;
 }
 
 body {
-  background-color: lavenderblush;
+  font-family: 'Courier New';
+  background-color: lavenderblush;     
 }
 
 header {
@@ -17,6 +17,11 @@ header {
   font-size: 1.5em;
   display: absolute;
   position: static;
+  font-family: 'Ephesis', cursive;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
 
 }
 
@@ -24,8 +29,17 @@ h3 {
   text-align: center;
   font-size: 3.3ex;
   text-decoration: underline;
+  font-family: 'Luminari', fantasy;
 }
 
+li {
+  font-family: 'Marker Felt', fantasy;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
 section {
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
@@ -34,9 +48,10 @@ section {
 
 details > summary {
   color: rgb(250, 140, 255);
+  font-size: 2ch;
 }
 
-p {
+p { 
     display: inline;
 }
 
@@ -47,11 +62,72 @@ img {
   max-height: 60%;
 }
 
+
 #forms {
   border-style: solid;
   border-width: small;
   border-radius: 0.03in;
-  border-color: hsl(50, 100, 100);
+  border-color: hsl(50, 20%, 30%);
  
 }
+
+/*Pseudo class*/
+button:hover {
+  color: magenta;
+}
+
+a:hover {
+  background-color: hsla(40, 30%, 75%, 5);
+
+}
+
+a:active {
+  background-color: red;
+}
+
+/*Create a grid*/
+
+.grid {
+  display: grid;
+  width: 300px;
+  height: 400px;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(1, 30px);
+  
+  
+}
+
+.one {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  color: orange;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.two {
+  grid-column: 2/4;
+    grid-row: 1/1;
+
+  color: red;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.three {
+  grid-column: 3/4;
+  grid-row: 1/1;
+  color: purple;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.four {
+  grid-column: 4/4;
+  grid-row: 1/1;
+  color: green;
+  border-style: solid;
+  border-width: 1px;
+}
+
 
