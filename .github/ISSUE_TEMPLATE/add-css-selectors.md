@@ -4,7 +4,7 @@ about: class, ID, universal, element, attribute, pseudo-class, selectors, also a
   combinators
 title: ''
 labels: css
-assignees: ''
+assignees: m5adams
 
 ---
 
