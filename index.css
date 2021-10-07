@@ -1,0 +1,57 @@
+* {
+    font-family: 'Courier New';
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+    
+}
+
+body {
+  background-color: lavenderblush;
+}
+
+header {
+  color: navy;
+  text-align: center;
+  font-size: 1.5em;
+  display: absolute;
+  position: static;
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 3.3ex;
+  text-decoration: underline;
+}
+
+section {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+details > summary {
+  color: rgb(250, 140, 255);
+}
+
+p {
+    display: inline;
+}
+
+img {
+  min-width: 20%;
+  min-height: 50%;
+  max-width: 50%;
+  max-height: 60%;
+}
+
+#forms {
+  border-style: solid;
+  border-width: small;
+  border-radius: 0.03in;
+  border-color: hsl(50, 100, 100);
+ 
+}
+
